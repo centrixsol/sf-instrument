@@ -31,9 +31,9 @@ export default function QuoteModal() {
     setIsSubmitting(true);
     
     // EmailJS Credentials from environment
-    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+    const serviceId = 'service_0ctm1ie' ;
+    const templateId = 'template_a57xryk';
+    const publicKey = 'c9D79y_PGfCIQySqT';
 
     if (!serviceId || !templateId || !publicKey) {
       alert("Email configuration is missing. Please contact the administrator.");
